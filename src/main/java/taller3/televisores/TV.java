@@ -76,7 +76,7 @@ public class TV {
 		this.setVolumen(volumen-1);
 	}
 	public void volumenUp() {
-		this.setVolumen(volumen+2);
+		this.setVolumen(volumen+1);
 	}
 	
 }

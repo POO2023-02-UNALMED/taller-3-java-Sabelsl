@@ -7,12 +7,6 @@ public class Control {
 		this.tv = televisor;
 		tv.setControl(this);		
 	}
-	public void turnOff(){
-		this.tv.turnOff();
-	}
-	public void turnOn() {
-		this.tv.turnOn();
-	}
 	public void setTV (TV tv) {
 		this.tv = tv;
 	}
@@ -20,6 +14,13 @@ public class Control {
 	public TV getTv () {
 		return this.tv;
 		
+	}
+	public void turnOn() {
+		this.tv.turnOn();
+		
+	}
+	public void turnOff() {
+		this.tv.turnOn();
 	}
 	public void canalDown() {
 		this.tv.canalDown();
