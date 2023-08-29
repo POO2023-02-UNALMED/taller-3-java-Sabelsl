@@ -3,7 +3,7 @@ package taller3.televisores;
 public class Control {
 	private TV tv;
 	
-	private void enlazar (TV televisor) {
+	private void  (TV televisor) {
 		this.tv = televisor;
 		tv.setControl(this);		
 	}
