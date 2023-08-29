@@ -66,7 +66,7 @@ public class TV {
 		return estado;
 	}
 	public void canalDown() {
-		this.setCanal(canal -1 );
+		this.setCanal(canal-1);
 	}
 	public void canalUp() {
 		this.setCanal(this.canal +1);	
