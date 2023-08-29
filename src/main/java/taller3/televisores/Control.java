@@ -20,7 +20,7 @@ public class Control {
 		
 	}
 	public void turnOff() {
-		this.tv.turnOn();
+		this.tv.turnOff();
 	}
 	public void canalDown() {
 		this.tv.canalDown();
